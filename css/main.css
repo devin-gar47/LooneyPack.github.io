@@ -72,6 +72,7 @@ p {
 
 .img-header-text {
     color: red;
+    font-family: "Grobold";
 }
 
 .strokeme   {
@@ -219,7 +220,7 @@ h2 {
     transform: translate(-50%, -50%);
     }
     .img-header-text {
-    font-size: 3.75rem;
+    font-size: 3.25rem;
     }
     .img-header-text2 {
     font-size: 2.25rem;
