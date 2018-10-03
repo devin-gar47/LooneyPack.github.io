@@ -33,6 +33,23 @@ nav img {
     color: black;
 }
 
+p {
+    font-size: 24px;
+    font-family: "Arial Bold";
+}
+
+.img-header, .services-pg-h, .contact-pg-h {
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+
+
 .active {
     text-decoration: underline;
 }
@@ -45,11 +62,25 @@ nav img {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: black;
+    background-image: url(../images/background.jpg);
 }
 
 .img-header-logo{
     height: 230px;
     width: auto;
+}
+
+.img-header-text {
+    color: red;
+}
+
+.strokeme   {
+    color: red;
+    text-shadow:
+    -1px -1px 0 #D3D3D3,
+    1px -1px 0 #D3D3D3,
+    -1px 1px 0 #D3D3D3,
+    1px 1px 0 #D3D3D3;  
 }
 
 
@@ -61,7 +92,7 @@ nav img {
 }
 
 h2 {
-    font-family: Fortunates December;
+    font-family: "Fortunates December";
 }
 
 /* Why Choose Us? */
@@ -78,6 +109,19 @@ h2 {
     width: 80%;
 }
 
+.wcu { 
+    /* The image used */
+    background-image: url(../images/white-pattern.jpg);
+
+    /* Full height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
 /* END Why Choose Us? */
 
 /* Services */
@@ -91,6 +135,7 @@ h2 {
     width: 50%;
     font-size: 20px;
 }
+
 
 .btn-lg {
     width: 300px;
@@ -146,18 +191,11 @@ h2 {
     font-size: 25px;
 }
 
-.app-p {
-  font-size: 20px;  
-}
-
 #mapDiv{
     width: 100%;
     height: 55%;
 }
 
-p {
-    font-size: 20px;
-}
 
 @media (max-width: 768px) {
     .centered {
